@@ -8,6 +8,19 @@ public class Main {
             L
             O
          */
-        System.out.print("JAVA FOR BEGINNERS");
+        System.out.println("JAVA FOR BEGINNERS");
+
+        //DECLARATION OF VARIABLES: (KIND OF DATA) + (variableName(Use camelCase for variables) = value;)
+        int variableInteger = 10;
+        System.out.println(variableInteger);
+
+        //We can change the value of our variable, now variableInteger is 15, no 10.
+        variableInteger = 15;
+        System.out.println(variableInteger);
+
+        //Now, we use String, this isn´t a primitive variable
+        String variableString = "Hi String";
+        //We can use control + click when we want to know where the definition of variable is.
+        System.out.println(variableString);
     }
 }

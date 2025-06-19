@@ -22,5 +22,9 @@ public class Main {
         String variableString = "Hi String";
         //We can use control + click when we want to know where the definition of variable is.
         System.out.println(variableString);
+
+        //USE VAR - INFERENCIA DE TIPOS EN JAVA
+        var myVariableInteger2 = 20;
+        System.out.println(myVariableInteger2);
     }
 }

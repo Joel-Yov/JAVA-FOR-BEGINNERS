@@ -26,5 +26,8 @@ public class Main {
         //USE VAR - INFERENCIA DE TIPOS EN JAVA
         var myVariableInteger2 = 20;
         System.out.println(myVariableInteger2);
+
+        var myVariableString2 = "Hi GitHub";
+        System.out.println("myVariableString2 = " + myVariableString2);
     }
 }

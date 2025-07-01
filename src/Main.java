@@ -10,9 +10,15 @@ public class Main {
          */
         System.out.println("JAVA FOR BEGINNERS");
 
-        //DECLARATION OF VARIABLES: (KIND OF DATA) + (variableName(Use camelCase for variables) = value;)
+        //DECLARATION OF VARIABLES: (KIND OF DATA) + (variableName(Use camelCase for variables)) = value;
         int variableInteger = 10;
         System.out.println(variableInteger);
+
+        int edad = 20;
+        double sueldo = 1025.50;
+        String name = "Joel Yovera";
+
+        System.out.println("Mi nombre es " + name + " tengo " + edad + ", y mi sueldo mínimo es: " + sueldo);
 
         //We can change the value of our variable, now variableInteger is 15, no 10.
         variableInteger = 15;

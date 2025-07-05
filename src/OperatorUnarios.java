@@ -12,7 +12,13 @@ public class OperatorUnarios {
         resultado = -b;
         System.out.println("RESULTADO: " + resultado);
 
+        // OPERATOR PREINCREMENTO ++a
+        resultado = ++a;
+        System.out.println("RESULTADO: " + resultado);
 
-
+        //OPERATOR POST-INCREMENTO a++
+        a = 3; //WE NEED TO USE THE VARIABLE BEFORE
+        resultado = a++;
+        System.out.println("RESULTADO: " + resultado);
     }
 }

@@ -1,3 +1,5 @@
+package VARIABLES_CONSTANTS;
+
 public class Main {
     public static void main(String[] args) {
         //THIS IS MY FIRST JAVA'S EXERCISE

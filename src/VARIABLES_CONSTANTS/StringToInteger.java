@@ -1,3 +1,5 @@
+package VARIABLES_CONSTANTS;
+
 import java.util.Scanner;
 //Note: println ---> print line (jump line)
 
